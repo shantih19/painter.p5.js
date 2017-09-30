@@ -1,9 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
   <title>Paint</title>
   <style>
-
+    #text {
+      padding: 70px 0;
+      text-align: center;
+    }
+    #button {
+      padding: 70px 0;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
+  <div id="text">
+    Left mouse button: Paint<br>
+    Right mouse button: Change color<br>
+    Spacebar: Change shape<br>
+    Escape: Clear screen<br>
+    Cancel: Eraser (set color to white)<br>
+    S: Save painting to disk (in PNG)<br>
+    Up/Down arrow: Change size<br>
+    <b>Better on fullscreen!<br> Please go fullscreen before opening!</b><br>
+    </div>
+  <div id = "button">
+    <a href="paint.html"><button type="button">Go!</button></a>
+  </div>
+</body>
+</html>

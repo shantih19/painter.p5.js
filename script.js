@@ -73,6 +73,11 @@ function keyPressed() {
   else if (keyCode == 83) {
     save(drw, "painting.png")
   }
+  else if (keyCode == 46){
+    c = color(255,255,255)
+    ui.fill(c)
+    drw.fill(c)
+  }
 }
 
 function mouseDragged(){
