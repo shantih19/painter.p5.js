@@ -1,6 +1,8 @@
 # painter.p5.js
 The web based oversimplistic, useless and unneeded painting program that nobody asked but everyone waited for.
 
+[Let's draw!](https://shantih19.github.io/painter.p5.js/)
+
 Left mouse button: Paint
 
 Right mouse button: Change color
